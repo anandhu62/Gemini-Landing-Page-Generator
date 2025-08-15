@@ -4,7 +4,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 // Google Gemini API Key (Set in .env or replace directly)
-$apiKey = getenv('GOOGLE_API_KEY') ?: 'AIzaSyA2i9IZsGKj6zz8nDkkjS7A98WlDe1wbD4';
+$apiKey = getenv('GOOGLE_API_KEY') ?: '';
 
 // Function to call Google Gemini API using cURL
 function predictText($prompt) {
