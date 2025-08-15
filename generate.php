@@ -6,7 +6,7 @@ ini_set("display_errors", 1);
 function predictText($prompt)
 {
     $url =
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=";
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key='place your key over here'";
     $data = [
         "contents" => [["parts" => [["text" => $prompt]]]],
     ];
