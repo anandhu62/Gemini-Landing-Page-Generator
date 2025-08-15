@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>athul car showroom - Landing Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="owl-carousel owl-theme">
+        <div class="item"><img src="https://via.placeholder.com/1200x400" alt="Placeholder"></div>
+        <div class="item"><img src="https://via.placeholder.com/1200x400" alt="Placeholder"></div>
+        <div class="item"><img src="https://via.placeholder.com/1200x400" alt="Placeholder"></div>
+    </div>
+
+    <header class='bg-dark text-white py-2'>
+                            <div class='container'>
+                                <div class='d-flex justify-content-between align-items-center'>
+                                    <div><img src='https://via.placeholder.com/100x50' alt='Logo' class='logo'></div>
+                                    <nav>
+                                        <ul class='nav'>
+                                            <li class='nav-item'><a class='nav-link text-white' href='#about'>About</a></li>
+                                            <li class='nav-item'><a class='nav-link text-white' href='#services'>Services</a></li>
+                                            <li class='nav-item'><a class='nav-link text-white' href='#contact'>Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                         </header>
+                         <div class='text-center py-5'><h1>Welcome to athul car showroom</h1></div>
+    <section id='services' class='container my-5'><h2>Our Services</h2><div class='service-box'><p>*   New car sales (Athul brand).</p></div><div class='service-box'><p>*   Used car sales.</p></div><div class='service-box'><p>*   Car financing and insurance.</p></div><div class='service-box'><p>*   Car servicing and maintenance.</p></div><div class='service-box'><p>*   Spare parts and accessories sales.</p></div><div class='service-box'><p>*   Car exchange programs.</p></div><div class='service-box'><p>*   Test drives.</p></div></section>
+                          <section id='about' class='container my-5'><h2>About Us</h2><p>## About Athul Car Showroom: Your Journey Starts Here.
+
+At Athul Car Showroom, we're more than just a place to buy a car – we're your partners in finding the perfect vehicle for your life. We're passionate about connecting you with quality vehicles, offering expert advice, and providing a seamless, stress-free car buying experience. Whether you're searching for a reliable family sedan, a sporty weekend cruiser, or a rugged workhorse, we've got a wide selection to suit every need and budget. Come experience the Athul difference – where your dream car awaits!
+</p></section>
+    <footer class='bg-primary text-white text-center py-3'><p>Contact us: **Athul Car Showroom**
+
+**Phone:** (555) 123-4567
+**Email:** info@athulcars.com
+**Address:** 123 Main Street, Anytown, USA 91234
+</p></footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                nav:true,
+                items: 1
+            });
+        });
+    </script>
+</body>
+</html>

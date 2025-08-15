@@ -1,0 +1,31 @@
+body { font-family: 'Arial', sans-serif; }
+h2 { color: #333; }
+.container { padding: 20px; }
+footer { font-size: 14px; }
+.owl-carousel .item img {
+    height: 400px; /* Fixed height for carousel images */
+    object-fit: cover; /* Ensure images cover the area */
+}
+.service-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.logo {
+    max-height: 50px; /* Adjust logo height */
+}
+.nav-link {
+    padding: 0.5rem 1rem;
+}
+/* Additional CSS for different layouts */
+.bg-success { background-color: #28a745 !important; }
+.bg-info { background-color: #17a2b8 !important; }
+.text-end { text-align: right !important; }
+.row { display: flex; flex-wrap: wrap; }
+.col-md-6 { flex: 0 0 50%; max-width: 50%; }
+.col-md-8 { flex: 0 0 66.666667%; max-width: 66.666667%; }
+.col-md-4 { flex: 0 0 33.333333%; max-width: 33.333333%; }
+.col-lg-8 { flex: 0 0 66.666667%; max-width: 66.666667%; }
+.col-lg-4 { flex: 0 0 33.333333%; max-width: 33.333333%; }

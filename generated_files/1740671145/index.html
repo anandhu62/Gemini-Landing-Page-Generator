@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello mobile shop - Landing Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="owl-carousel owl-theme">
+        <div class="item"><img src="https://via.placeholder.com/1200x400" alt="Placeholder"></div>
+        <div class="item"><img src="https://via.placeholder.com/1200x400" alt="Placeholder"></div>
+        <div class="item"><img src="https://via.placeholder.com/1200x400" alt="Placeholder"></div>
+    </div>
+
+    <header class='bg-dark text-white py-2'>
+                            <div class='container'>
+                                <div class='d-flex justify-content-between align-items-center'>
+                                    <div><img src='https://via.placeholder.com/100x50' alt='Logo' class='logo'></div>
+                                    <nav>
+                                        <ul class='nav'>
+                                            <li class='nav-item'><a class='nav-link text-white' href='#about'>About</a></li>
+                                            <li class='nav-item'><a class='nav-link text-white' href='#services'>Services</a></li>
+                                            <li class='nav-item'><a class='nav-link text-white' href='#contact'>Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                         </header>
+                         <div class='text-center py-5'><h1>Welcome to Hello mobile shop</h1></div>
+    <section id='services' class='container my-5'><h2>Our Services</h2><div class='service-box'><p>Hello Mobile Shop offers:</p></div><div class='service-box'><p>Mobile phone sales (new and used)</p></div><div class='service-box'><p>Mobile phone repairs (screen, battery, etc.)</p></div><div class='service-box'><p>Mobile phone accessories (cases, chargers, etc.)</p></div><div class='service-box'><p>Mobile phone unlocking</p></div><div class='service-box'><p>Mobile phone plan activation/sales</p></div><div class='service-box'><p>Mobile phone trade-ins</p></div><div class='service-box'><p>Data recovery services</p></div><div class='service-box'><p>Software troubleshooting and updates</p></div><div class='service-box'><p>Phone insurance services</p></div><div class='service-box'><p>Prepaid mobile top-ups</p></div></section>
+                          <section id='about' class='container my-5'><h2>About Us</h2><p>## About Us: Hello Mobile Shop
+
+Tired of feeling lost in a sea of phones and plans? At Hello Mobile Shop, we're here to cut through the confusion and make finding the perfect mobile solution a breeze. We're more than just a phone store; we're your friendly neighborhood mobile experts. Whether you're seeking the latest flagship device, a reliable budget option, or just need some help understanding your data plan, we're dedicated to providing honest advice, personalized service, and a stress-free shopping experience. Say "Hello" to a better way to buy mobile!
+</p></section>
+    <footer class='bg-primary text-white text-center py-3'><p>Contact us: Okay, here's a contact information section for a fictional "Hello Mobile Shop":
+
+**Contact Us**
+
+Need help finding the perfect mobile device, accessory, or repair service? We're here for you!
+
+*   **Phone:** (555) 123-4567
+*   **Email:** support@hellomobile.shop
+*   **Address:** 123 Tech Street, Anytown, USA 91234
+</p></footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                nav:true,
+                items: 1
+            });
+        });
+    </script>
+</body>
+</html>

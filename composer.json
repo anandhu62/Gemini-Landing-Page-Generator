@@ -1,0 +1,16 @@
+{
+    "name": "user/gemini-page-generator",
+    "autoload": {
+        "psr-4": {
+            "User\\GeminiPageGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "john doe"
+        }
+    ],
+    "require": {
+        "google/generative-ai": "^0.1.0" 
+    }
+}
